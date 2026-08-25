@@ -1,4 +1,4 @@
-coder_id,risk_domain,objective,code_0_or_1,confidence_1_to_5
+coder_id,domain,objective,code_0_or_1,confidence_1_to_5
 1,GOV,O1,1,4
 1,GOV,O2,1,4
 1,GOV,O3,1,4
