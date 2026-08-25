@@ -24,8 +24,8 @@ if len(coder_ids) != 3:
     raise SystemExit(f'Expected 3 coders, found {len(coder_ids)}')
 
 experts = [by_coder[c] for c in coder_ids]
-keys = [(r['risk_domain'], r['objective']) for r in experts[0]]
-if any([(r['risk_domain'], r['objective']) for r in ex] != keys for ex in experts[1:]):
+keys = [(r['domain'], r['objective']) for r in experts[0]]
+if any([(r['domain'], r['objective']) for r in ex] != keys for ex in experts[1:]):
     raise SystemExit('Coder rows are not aligned.')
 
 ratings = {k: [int(ex[i]['code_0_or_1']) for ex in experts] for i, k in enumerate(keys)}
@@ -53,7 +53,6 @@ for i, j in [(0,1), (0,2), (1,2)]:
     b = [int(r['code_0_or_1']) for r in experts[j]]
     pair_stats[(i+1,j+1)] = cohen(a,b)
 
-# Nominal Krippendorff alpha for complete binary ratings, reported as a sensitivity statistic.
 pair_total = 0
 pair_disagree = 0
 for k in keys:
@@ -74,7 +73,7 @@ initial = None
 if initial_path.exists():
     with initial_path.open(newline='', encoding='utf-8') as f:
         initial_rows = list(csv.DictReader(f))
-    initial = {(r['risk'], o): int(r[o]) for r in initial_rows for o in r if o != 'risk'}
+    initial = {(r['domain'], o): int(r[o]) for r in initial_rows for o in r if o != 'domain'}
 
 with (EXPERT_DIR/'expert_validation_summary.csv').open('w', newline='', encoding='utf-8') as f:
     w=csv.writer(f); w.writerow(['metric','value'])
@@ -98,7 +97,7 @@ with (EXPERT_DIR/'expert_validation_summary.csv').open('w', newline='', encoding
 
 with (EXPERT_DIR/'item_agreement.csv').open('w', newline='', encoding='utf-8') as f:
     w=csv.writer(f)
-    w.writerow(['risk_domain','objective','expert_1','expert_2','expert_3','majority_code','unanimous','mean_confidence'])
+    w.writerow(['domain','objective','expert_1','expert_2','expert_3','majority_code','unanimous','mean_confidence'])
     for k in keys:
         vals=ratings[k]
         w.writerow([k[0],k[1],*vals,majority[k],int(len(set(vals))==1),f'{statistics.mean(confidence[k]):.3f}'])
@@ -108,10 +107,10 @@ for k in keys:
     if k[0] not in domains: domains.append(k[0])
     if k[1] not in objectives: objectives.append(k[1])
 with (EXPERT_DIR/'consensus_majority_matrix.csv').open('w', newline='', encoding='utf-8') as f:
-    w=csv.writer(f); w.writerow(['risk']+objectives)
+    w=csv.writer(f); w.writerow(['domain']+objectives)
     for d in domains: w.writerow([d]+[majority[(d,o)] for o in objectives])
 with (EXPERT_DIR/'consensus_unanimity_matrix.csv').open('w', newline='', encoding='utf-8') as f:
-    w=csv.writer(f); w.writerow(['risk']+objectives)
+    w=csv.writer(f); w.writerow(['domain']+objectives)
     for d in domains: w.writerow([d]+[unanimity_positive[(d,o)] for o in objectives])
 
 report=[
