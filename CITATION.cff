@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this replication package, please cite the associated article."
-title: "SERP-CM replication package for Beyond policy silos"
-type: dataset
+message: "If you use this replication package, please cite the associated article and this repository version."
+title: "SERP-PublicDecision replication package"
+type: software
 version: "4.0"
-date-released: 2026-07-29
+date-released: 2026-08-25
+repository-code: "https://github.com/EkodeckStephane/SERP-PublicDecision"
 authors:
   - family-names: "EKODECK"
     given-names: "Stephane Gael R."
@@ -19,3 +20,17 @@ authors:
   - family-names: "BITJOKA"
     given-names: "Georges Bell"
     orcid: "https://orcid.org/0000-0002-8683-8474"
+preferred-citation:
+  type: article
+  title: "Systemic prioritization of digital-transformation gaps: Applying SERP to Cameroon's PATNuC"
+  authors:
+    - family-names: "EKODECK"
+      given-names: "Stephane Gael R."
+    - family-names: "EBELE"
+      given-names: "Serge Alain"
+    - family-names: "NEHALE"
+      given-names: "Jessie Berlie"
+    - family-names: "FOTSO"
+      given-names: "Damaris Belle M."
+    - family-names: "BITJOKA"
+      given-names: "Georges Bell"
