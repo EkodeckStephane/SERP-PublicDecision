@@ -1,0 +1,11 @@
+code,indicator,domain,direction,baseline,current,target,unit,date,source,progress,gap,reference_selected,selection_reason
+I1,Pénétration du haut débit dans les zones du projet,CONN,increase,0.0,0.0,25.0,abonnés/100 hab.,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.0,1.0,1,reference scoring set
+I2,Connexions haut débit aux entités publiques clés,CONN,increase,0.0,0.0,200.0,connexions,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.0,1.0,1,reference scoring set
+I3,Sites mobiles déployés par le projet,CONN,increase,0.0,0.0,120.0,sites,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.0,1.0,1,reference scoring set
+I4,Utilisateurs et agents publics formés aux services numériques,SKILL,increase,0.0,181.0,75000.0,personnes,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.0024133333333333784,0.9975866666666666,1,reference scoring set
+I5,Prix du panier mobile 2 Go en % du RNB par habitant,AFFORD,decrease,6.4,3.3,3.0,% RNB/hab.,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.911764705882353,0.08823529411764697,1,reference scoring set
+I6,Projets de lois préparés et soumis aux Services du Premier Ministre,TRUST,increase,0.0,1.0,3.0,textes,2025-03-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.33333333333333326,0.6666666666666667,1,reference scoring set
+I7,Agriculteurs participants utilisant les e-vouchers,ADOPT,increase,0.0,3692.0,35000.0,agriculteurs,2024-11-15,"Banque mondiale, PATNuC, cadre de résultats révisé",0.1054857142857143,0.8945142857142857,1,reference scoring set
+I8,Utilisateurs de solutions agritech livrées par des entrepreneurs,ADOPT,increase,0.0,0.0,45000.0,utilisateurs,2024-11-15,"Banque mondiale, PATNuC, cadre de résultats révisé",0.0,1.0,1,reference scoring set
+I9,Consultations publiques de parties prenantes tenues,GOV,increase,0.0,1.0,5.0,consultations,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",0.19999999999999996,0.8,1,reference scoring set
+I10,Retours traités dans un délai de 30 jours,GOV,increase,0.0,100.0,80.0,%,2025-06-01,"Banque mondiale, PATNuC, cadre de résultats révisé",1.0,0.0,0,conditional GRM response ratio; denominator count not reported; tested in evidence-selection sensitivity

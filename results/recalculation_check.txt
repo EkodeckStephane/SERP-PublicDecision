@@ -1,0 +1,7 @@
+  risk  base_gap  systemic_relative_score  rank
+ SKILL  0.997587                 1.000000     1
+  CONN  1.000000                 0.963321     2
+   GOV  0.800000                 0.899060     3
+ ADOPT  0.947257                 0.829531     4
+ TRUST  0.666667                 0.719490     5
+AFFORD  0.088235                 0.248584     6

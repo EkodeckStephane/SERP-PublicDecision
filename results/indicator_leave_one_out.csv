@@ -1,0 +1,10 @@
+indicator_removed,estimable,top4_same,top4,rank_GOV,rank_CONN,rank_SKILL,rank_AFFORD,rank_TRUST,rank_ADOPT
+I1,1,1,ADOPT;CONN;GOV;SKILL,3.0,2.0,1.0,6.0,5.0,4.0
+I2,1,1,ADOPT;CONN;GOV;SKILL,3.0,2.0,1.0,6.0,5.0,4.0
+I3,1,1,ADOPT;CONN;GOV;SKILL,3.0,2.0,1.0,6.0,5.0,4.0
+I4,0,,domain would be unrepresented,,,,,,
+I5,0,,domain would be unrepresented,,,,,,
+I6,0,,domain would be unrepresented,,,,,,
+I7,1,1,ADOPT;CONN;GOV;SKILL,3.0,2.0,1.0,6.0,5.0,4.0
+I8,1,1,ADOPT;CONN;GOV;SKILL,3.0,2.0,1.0,6.0,5.0,4.0
+I9,0,,domain would be unrepresented,,,,,,

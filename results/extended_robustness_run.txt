@@ -1,0 +1,3 @@
+reference_top4 ['ADOPT', 'CONN', 'GOV', 'SKILL']
+single_link_same 42 / 42
+reference_domain_counts {'GOV': 1, 'CONN': 3, 'SKILL': 1, 'AFFORD': 1, 'TRUST': 1, 'ADOPT': 2}

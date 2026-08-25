@@ -1,0 +1,10 @@
+Audited replication environment
+===============================
+Python: 3.13.5
+numpy: 2.3.5
+pandas: 2.2.3
+matplotlib: 3.10.8
+pdfTeX: 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)
+biber: 2.20
+
+The four analysis scripts are deterministic for the supplied CSV inputs and do not require network access.

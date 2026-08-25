@@ -1,0 +1,7 @@
+risk,min_rank,max_rank,top4_persistence
+GOV,1,4,1.0
+CONN,1,3,1.0
+SKILL,1,2,1.0
+AFFORD,6,6,0.0
+TRUST,4,5,0.2839506172839506
+ADOPT,3,5,0.7160493827160493

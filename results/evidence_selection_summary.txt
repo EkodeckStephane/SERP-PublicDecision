@@ -1,0 +1,6 @@
+Reference top-four: ['ADOPT', 'CONN', 'GOV', 'SKILL']
+Admissible leave-one-indicator-out runs: 5/9; all admissible runs preserve top-four: True
+Singleton removals are marked non-estimable because treating missing evidence as a zero gap would be invalid.
+Add-back scenarios changing top-four: ['add_feedback_30d', 'add_conditional_ratios', 'expanded_non_disaggregated']
+The 30-day feedback indicator is the decisive add-back: it lowers GOV because its target gap is zero and moves GOV outside the top four.
+Majority versus unanimity vote aggregation preserves the same top-four set but changes ordering within it.

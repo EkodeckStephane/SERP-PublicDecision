@@ -1,0 +1,5 @@
+component,label,fund_utilization_percent,value_type,rating
+C1,"Stratégie, politiques et réglementation",9,exact,MU
+C2,Connectivité et inclusion numérique,5,upper_bound,MU
+C3,Solutions pilotées par les données dans l’agriculture,14,exact,MS
+C4,Gestion du projet et engagement citoyen,45,exact,MU

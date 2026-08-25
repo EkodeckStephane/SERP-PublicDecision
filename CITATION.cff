@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated article."
+title: "SERP-CM replication package for Beyond policy silos"
+type: dataset
+version: "4.0"
+date-released: 2026-07-29
+authors:
+  - family-names: "EKODECK"
+    given-names: "Stephane Gael R."
+    orcid: "https://orcid.org/0000-0002-8094-8832"
+  - family-names: "EBELE"
+    given-names: "Serge Alain"
+    orcid: "https://orcid.org/0000-0001-7036-7068"
+  - family-names: "NEHALE"
+    given-names: "Jessie Berlie"
+  - family-names: "FOTSO"
+    given-names: "Damaris Belle M."
+    orcid: "https://orcid.org/0009-0001-8736-0644"
+  - family-names: "BITJOKA"
+    given-names: "Georges Bell"
+    orcid: "https://orcid.org/0000-0002-8683-8474"

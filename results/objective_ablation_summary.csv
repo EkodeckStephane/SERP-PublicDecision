@@ -1,0 +1,7 @@
+risk,min_rank,max_rank,top4_all_ablations
+GOV,3,3,1
+CONN,1,2,1
+SKILL,1,2,1
+AFFORD,6,6,0
+TRUST,5,5,0
+ADOPT,4,4,1

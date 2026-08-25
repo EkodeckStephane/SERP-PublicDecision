@@ -1,0 +1,6 @@
+source,observation_year,indicator,value,unit,interpretive_role
+"World Bank, World Development Indicators",2024,Individuals using the Internet,46,% of population,Independent national connectivity/use context; not used in SERP score.
+"UN DESA, E-Government Survey 2024",2024,E-Government Development Index (EGDI),0.4294,0-1 index,National digital-government maturity context; not used in SERP score.
+"UN DESA, E-Government Survey 2024",2024,E-Participation Index (EPI),0.4247,0-1 index,Citizen-facing participation context; not used in SERP score.
+"ITU, Global Cybersecurity Index 2024",2024,Cybersecurity maturity tier,Tier 3 - Establishing,tier,Independent national trust/cybersecurity context; not used in SERP score.
+"World Bank, GovTech Maturity Index 2025",2025,GovTech maturity group,Group C - Medium GovTech Maturity,group,Independent public-sector digital transformation context; not used in SERP score.

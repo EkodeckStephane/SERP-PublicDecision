@@ -1,0 +1,11 @@
+Items: 42; raters: 3
+All-three unanimity: 31/42 (73.8%)
+Observed pairwise agreement: 82.5%
+Fleiss' kappa: 0.645
+Nominal Krippendorff alpha: 0.648
+Mean confidence: 4.12/5
+Mean confidence, unanimous items: 4.33/5
+Mean confidence, disagreement items: 3.52/5
+Pairwise agreement/Cohen kappa: Expert 1-2: 85.7%, kappa=0.720; Expert 1-3: 88.1%, kappa=0.748; Expert 2-3: 73.8%, kappa=0.503
+Initial analytical matrix vs expert-majority matrix: 92.9% agreement; Cohen kappa=0.855
+Changed cells (3): CONN-O3, SKILL-O4, AFFORD-O5

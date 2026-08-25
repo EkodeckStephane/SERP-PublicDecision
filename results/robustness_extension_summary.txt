@@ -1,0 +1,5 @@
+Additional structural/model robustness checks for the GIQ submission revision.
+- 42/42 single risk-objective link flips preserve the reference-evidence top-four set {SKILL, CONN, GOV, ADOPT} at lambda=0.35.
+- Mean, median, maximum-gap, and minimum-gap aggregation preserve the same reference top-four set, but this is only a limited diagnostic because four domains are single-indicator and the three CONN gaps are identical.
+- Spectral and row-normalized interdependency matrices preserve the same reference top-four set; row normalization exchanges GOV and ADOPT within that set.
+These checks evaluate structural/model sensitivity conditional on the audited reference evidence set. Evidence-selection sensitivity is reported separately and identifies {SKILL, CONN, ADOPT} as the stable intersection across the tested evidence constructions.
